@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final dashboard </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/657de39a82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="dash-header">
+      <div class="header-left">
+        <i class="fa-solid fa-bars " id="bars"></i>
+        <p class="app-name">Dashboard</p>
+        <div class="search-wrapper">
+          <input class="search-input" type="text" placeholder="Search ...">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="header-right">
+
+        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+        <button class="notification-btn"><i class="fa-regular fa-bell bell"></i></button>
+        <button class="profile-btn">
+          <img src="logo.png" />
+          <span>dev hub asmr</span>
+        </button>
+
+      </div>
+
+      <button class="service-btn"><i class="fa-solid fa-server"></i></button>
+      <button class="open-side"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="content">
+      <div class="sidebar">
+
+        <button class="close-side"><i class="fa-solid fa-xmark"></i></button>
+        <button class="switch-mode" title="Change Theme"><i class="fa-solid fa-moon moon"></i></button>
+
+        <a href="#" class="sidebar-buttons active home">
+          <i class="fa-solid fa-house"></i></a>
+        
+        <a href="#" class="sidebar-buttons">
+          <i class="fa-regular fa-circle-user user" ></i></a>
+        
+        <a href="#" class="sidebar-buttons">
+          <i class="fa-solid fa-calendar-days calendar"></i></a>
+        
+        <a href="#" class="sidebar-buttons">
+          <i class="fa-solid fa-gear gear"></i></a>
+
+      </div>
+
+      <div class="request-section">
+        <div class="request-section-header">
+          <p>Orders </p>
+          <p class="time">To Day</p>
+        </div>
+      
+        <div class="request-section-line">
+          <div class="projects-status">
+            <div class="item-status">
+              <span class="status-number">6</span>
+              <span class="status-type">Progress</span>
+            </div>
+
+            <div class="item-status">
+              <span class="status-number">17</span>
+              <span class="status-type">Closed</span>
+            </div>
+          </div>
+      
+          <div class="view-actions">
+            <button class="view-btn list-view"><i class="fa-solid fa-list list"></i></button>
+            <button class="view-btn grid-view active" ><i class="fa-solid fa-grip-vertical grip"></i></button>
+          </div>
+      
+        </div>
+      
+        <div class="request-boxes change-mode">
+          <div class="request-box-container">
+            <div class="request-box" style="background-color: #CEDEBD;"" >
+              <div class="request-box-header">
+                <span>Septembr 10, 2023</span>
+                <div class="more-wrapper">
+                  <button class="request-btn-more"><i class="fa-solid fa-ellipsis-vertical ellipsis"></i></button>
+                </div>
+              </div>
+      
+              <div class="request-box-content-header">
+                <p class="box-content-header">Ubuntu Server 22</p>
+                <p class="box-content-subheader">192.88.78.29</p>
+              </div>
+      
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Progress</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 60%; background-color: #4e6d2d"></span>
+                </div>
+                <p class="box-progress-percentage">65%</p>
+              </div>
+      
+              <div class="request-box-footer">
+                <span>Request :</span>
+                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="request-box-container">
+            <div class="request-box" style="background-color: #fae2c0;">
+              <div class="request-box-header">
+                <span>Septembr 10, 2023</span>
+                <div class="more-wrapper">
+                  <button class="request-btn-more"><i class="fa-solid fa-ellipsis-vertical ellipsis"></i></button>
+                </div>
+              </div>
+      
+              <div class="request-box-content-header">
+                <p class="box-content-header">Ubuntu Server 20.04</p>
+                <p class="box-content-subheader">192.88.78.32</p>
+              </div>
+
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Progress</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 50%; background-color: #996f34"></span>
+                </div>
+                <p class="box-progress-percentage">53%</p>
+              </div>
+      
+              <div class="request-box-footer">
+                <span>Request :</span>
+                <div class="type-request" style="color: #996f34;"> Reboot</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="request-box-container" >
+            <div class="request-box" style=" background-color: #A8DF8E">
+              <div class="request-box-header">
+                <span>Septembr 10, 2023</span>
+                <div class="more-wrapper">
+                  <button class="request-btn-more"><i class="fa-solid fa-ellipsis-vertical ellipsis"></i></button>
+                </div>
+              </div>
+      
+              <div class="request-box-content-header">
+                <p class="box-content-header">Ubuntu Server 2022</p>
+                <p class="box-content-subheader">192.88.78.44</p>
+              </div>
+      
+              <div class="box-progress-wrapper ">
+                <p class="box-progress-header">Progress</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 80%; background-color: #658a54"></span>
+                </div>
+                <p class="box-progress-percentage">83%</p>
+              </div>
+      
+              <div class="request-box-footer">
+                <span>Request :</span>
+                <div class="type-request" style="color: #658a54;">Change IP</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="request-box-container">
+            <div class="request-box" style="background-color: #EF9595;">
+              <div class="request-box-header">
+                <span>Septembr 10, 2023</span>
+                <div class="more-wrapper">
+                      <button class="request-btn-more"><i class="fa-solid fa-ellipsis-vertical ellipsis"></i></button>
+                </div>
+              </div>
+      
+              <div class="request-box-content-header">
+                <p class="box-content-header">windows server 2022</p>
+                <p class="box-content-subheader">192.88.78.22</p>
+              </div>
+      
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Progress</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 20%; background-color: #a14848"></span>
+                </div>
+                <p class="box-progress-percentage">30%</p>
+              </div>
+              <div class="request-box-footer">
+                <span>Request :</span>
+                <div class="type-request" style="color: #a14848;">Upgrade</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="request-box-container">
+            <div class="request-box" style="background-color: #8ECDDD;">
+              <div class="request-box-header">
+                <span>Septembr 10, 2023</span>
+                <div class="more-wrapper">
+                  <button class="request-btn-more"><i class="fa-solid fa-ellipsis-vertical ellipsis"></i></button>
+                </div>
+              </div>
+              <div class="request-box-content-header">
+                <p class="box-content-header">Ubuntu Server 20.04</p>
+                <p class="box-content-subheader">192.88.78.11</p>
+              </div>
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Progress</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 60%; background-color: #067692"></span>
+                </div>
+                <p class="box-progress-percentage">65%</p>
+              </div>
+              <div class="request-box-footer">
+                <span>Request :</span>
+                <div class="type-request" style="color: #067692;">Upgrade</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="request-box-container">
+            <div class="request-box" style="background-color: #D8B4F8;">
+              <div class="request-box-header">
+                <span>Septembr 10, 2023</span>
+                <div class="more-wrapper">
+                  <button class="request-btn-more"><i class="fa-solid fa-ellipsis-vertical ellipsis"></i></button>
+                </div>
+              </div>
+
+              <div class="request-box-content-header">
+                <p class="box-content-header">Windows Server 2016</p>
+                <p class="box-content-subheader">192.88.78.22</p>
+              </div>
+      
+              <div class="box-progress-wrapper">
+                <p class="box-progress-header">Progress</p>
+                <div class="box-progress-bar">
+                  <span class="box-progress" style="width: 40%; background-color: #634b79"></span>
+                </div>
+                <p class="box-progress-percentage">43%</p>
+              </div>
+              <div class="request-box-footer">
+                <span>Request :</span>
+                <div class="type-request" style="color: #634b79;">Reboot</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-section">
+
+        <button class="data-close"><i class="fa-solid fa-xmark"></i></button>
+
+        <div class="charts">
+          <div class="bar-chart">
+            <span class="chart-name">Download Trafic</span>                
+            <canvas id="myChart" height="150px" width="480"></canvas>
+            <span class="chart-name">Upload Trafic</span>
+            <canvas id="myChart2" height="150px" width="480px"></canvas>
+          </div>
+          <span class="chart-name">System Statuse</span>
+          <div class="pie-chart">
+            <div class="box">
+              <div class="chart" data-percent="60" >60%</div>
+              <h2>CPU</h2>
+            </div>
+            <div class="box">
+              <div class="chart" data-percent="72" >72%</div>
+              <h2>RAM</h2>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
